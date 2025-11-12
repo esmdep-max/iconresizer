@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
   generateBtn.addEventListener("click", async () => {
     if (!originalImage) return;
     const zip = new JSZip();
-    const allSizes = [16,24,32,36,57,64,96,114,128,144,192,256,512,1024,2048];
+    const allSizes = [16,24,32,36,57,64,96,114,128,144,192,256,320,400,512,800,1024,2048];
 
     const squareFolder = zip.folder("square");
     const circularFolder = zip.folder("circular");
